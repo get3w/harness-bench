@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "id": "output",
+      "kind": "json",
+      "path": "statistics.json",
+      "expected": {
+        "count": 5,
+        "minimum": -3,
+        "maximum": 10,
+        "median": 9
+      },
+      "weight": 0.8
+    },
+    {
+      "id": "preserve-measurements.json",
+      "kind": "text",
+      "path": "measurements.json",
+      "expected": "[9, -3, 0, 9, 10]",
+      "weight": 0.2
+    }
+  ]
+}

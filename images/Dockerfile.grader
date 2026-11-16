@@ -1,0 +1,8 @@
+# Build with --build-arg BASE=python:3.12-slim@sha256:<verified-digest>.
+ARG BASE
+FROM ${BASE}
+WORKDIR /opt/bench
+COPY pyproject.toml LICENSE ./
+COPY src ./src
+RUN pip install --no-cache-dir .
+CMD ["python", "-m", "get3w_bench.builtin_grader"]

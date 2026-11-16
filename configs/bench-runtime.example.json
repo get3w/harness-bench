@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "harness": "pi",
+    "runtime_version": "REPLACE_WITH_EXACT_VERSION",
+    "runtime_digest": "REPLACE_WITH_ARTIFACT_SHA256",
+    "tools_fingerprint": "REPLACE_WITH_VERIFIED_TOOLS_FINGERPRINT",
+    "permissions_fingerprint": "REPLACE_WITH_VERIFIED_POLICY_FINGERPRINT",
+    "profile_fingerprint": "REPLACE_WITH_VERIFIED_PROFILE_FINGERPRINT"
+  },
+  "executable": "/usr/local/bin/pi",
+  "model_id": "REPLACE_WITH_PROVIDER_MODEL_ID",
+  "model_revision": "REPLACE_WITH_IMMUTABLE_PROVIDER_REVISION",
+  "model_selector": "REPLACE_WITH_PI_PROVIDER_MODEL_SELECTOR",
+  "environment": {},
+  "config_files": [
+    {
+      "path": "/state/pi/models.json",
+      "template": "REPLACE_WITH_VERSION_VERIFIED_PROVIDER_CONFIG_USING_$ENDPOINT_AND_$TOKEN"
+    }
+  ]
+}

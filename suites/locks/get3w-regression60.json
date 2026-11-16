@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "suite": "general",
+  "selection": "sha256(task_id) per category, scarce-category remainder redistributed globally",
+  "tasks": [
+    {
+      "id": "g3w-1-01",
+      "digest": "0fd839e37cc1d3adf4337f5145fd7e20a612988b86f64e397214768bd9e3a1bc",
+      "category": "Software Engineering"
+    },
+    {
+      "id": "g3w-1-02",
+      "digest": "45f83befb35967a1fc2546dc4be1027d6dcfe5dc28fb11303e7e26aacd814792",
+      "category": "Software Engineering"
+    },
+    {
+      "id": "g3w-1-03",
+      "digest": "d8d2b140f468bb79f2d31a38305d310c94f6862c7b9de4bac3f6f98652643c3d",
+      "category": "Software Engineering"
+    },
+    {
+      "id": "g3w-1-04",
+      "digest": "3428ad198432fc7e1fc707751bf105a486050579261216e8d4d0c0f787635d92",
+      "category": "Software Engineering"
+    },
+    {
+      "id": "g3w-1-05",
+      "digest": "e5758f0f3a8c5c401fc71d87b5e7fa42558f9cfe2a11e59082a694943fb4a268",
+      "category": "Software Engineering"
+    },
+    {
+      "id": "g3w-1-06",
+      "digest": "0d10a81d7ce602d9c3ff31d1599a3cf6ac17994e0b28483a86a9e8657459d669",
+      "category": "Software Engineering"
+    },
+    {
+      "id": "g3w-1-07",
+      "digest": "b3b50981fcab18b35973af2f297e7be57fd2f9906f9ca604255a59d3cb377150",
+      "category": "Software Engineering"
+    },
+    {
+      "id": "g3w-1-08",
+      "digest": "2c9a3abb2ee3d606351de52788575f97377258ba5f7f16e263328c7433a98195",
+      "category": "Software Engineering"
+    },
+    {
+      "id": "g3w-1-09",
+      "digest": "f45eeb16fcc9651314c5feaabb2872d60097ca897d71e505be9240786d088e20",
+      "category": "Software Engineering"
+    },
+    {
+      "id": "g3w-1-10",
+      "digest": "4f3cf111b70e31be818cc552e74f44c5daf1aeaf5ab3807e2482e0ffd44b2301",
+      "category": "Software Engineering"
+    },
+    {
+      "id": "g3w-2-01",
+      "digest": "cfb1914a05dc546a45722eba9bedf5c861f9d8da9969a33b8be8a406b8111d8c",
+      "category": "Business Operations"
+    },
+    {
+      "id": "g3w-2-02",
+      "digest": "57285ce60d3282e7699af851225ee850d73cd79f62d015b8290fbaf63eedaed7",
+      "category": "Business Operations"
+    },
+    {
+      "id": "g3w-2-03",
+      "digest": "05f0fd085229ab780eaf538d502f8eb5e8df6bc23c4e5aa268aa743d0fed73fe",
+      "category": "Business Operations"
+    },
+    {
+      "id": "g3w-2-04",
+      "digest": "753fa76c33570bfafd23011f3a6c03a1424e44e5c52ef57bdbeeda2321a15ca8",
+      "category": "Business Operations"
+    },
+    {
+      "id": "g3w-2-05",
+      "digest": "b077dddb6506b65a5e2da27a7d12bd9d625375676002f7b1b9a33c30aed60536",
+      "category": "Business Operations"
+    },
+    {
+      "id": "g3w-2-06",
+      "digest": "566f0c2495d3ec121839978eb972f427290e5a7ad9adc3889bd3ca250caf5bb6",
+      "category": "Business Operations"
+    },
+    {
+      "id": "g3w-2-07",
+      "digest": "dabbb68959d0edbe880378939bc7037f339189aa6b7b5bd1dcba1494db6c9677",
+      "category": "Business Operations"
+    },
+    {
+      "id": "g3w-2-08",
+      "digest": "33d273420304384cafc2b8233585e6ff89acc90b8f7dd1da45df6857b4d1163a",
+      "category": "Business Operations"
+    },
+    {
+      "id": "g3w-2-09",
+      "digest": "d02de9432c1fb0218a61a10856ae365d4e8bb5240736fea59454ed0363dcaef1",
+      "category": "Business Operations"
+    },
+    {
+      "id": "g3w-2-10",
+      "digest": "a00b2b135e5436bcb81aca882f09fd5803059e855fcdb130db22eb7e4805a2e5",
+      "category": "Business Operations"
+    },
+    {
+      "id": "g3w-3-01",
+      "digest": "a74a7e8cb24869701496a47e01ed63b8ce657b340af4197297e4bfb7edf6d65e",
+      "category": "Systems Engineering"
+    },
+    {
+      "id": "g3w-3-02",
+      "digest": "18c002a3cbddeb3fa2b9a6a86114599fa36fb5e2fad8d040ab531c37c5f16221",
+      "category": "Systems Engineering"
+    },
+    {
+      "id": "g3w-3-03",
+      "digest": "08efd4e67a9d0b116f2778c5327c59f4ac324462cffc8ca53e3a7a3cb8b987d5",
+      "category": "Systems Engineering"
+    },
+    {
+      "id": "g3w-3-04",
+      "digest": "cdfea147086db5975a395eafaab6ee02e48a31d61329a67488cd6e55b7fc6dc4",
+      "category": "Systems Engineering"
+    },
+    {
+      "id": "g3w-3-05",
+      "digest": "383df4f073d9bb83eb398e8c3311231f6d1861262c499cf7a0f9134f6c799896",
+      "category": "Systems Engineering"
+    },
+    {
+      "id": "g3w-3-06",
+      "digest": "40fe80108268d98e21e145f3d71353fe4bf17c5ea276a5650b0aa12df2eedff4",
+      "category": "Systems Engineering"
+    },
+    {
+      "id": "g3w-3-07",
+      "digest": "0fe42d15f0d824b9c84de57321bd9444502fcfbd58f2c93ed842c9fd57aafff8",
+      "category": "Systems Engineering"
+    },
+    {
+      "id": "g3w-3-08",
+      "digest": "15a14996fdf9ae66878095c73f9934fe8218b198c81605f90e185462f66da745",
+      "category": "Systems Engineering"
+    },
+    {
+      "id": "g3w-3-09",
+      "digest": "166a73b078d1e7b56e38553b691aa23afd675d20a574aba137b658493ccfeef6",
+      "category": "Systems Engineering"
+    },
+    {
+      "id": "g3w-3-10",
+      "digest": "d6b79ce632f7ad30744324211263578f71068330859f41598ad2848c0b437c97",
+      "category": "Systems Engineering"
+    },
+    {
+      "id": "g3w-4-01",
+      "digest": "7e792ffb8991490af7aaecec16eb50cd859edd4b8d6b42fa01a6546f0f293cd7",
+      "category": "Research and Analysis"
+    },
+    {
+      "id": "g3w-4-02",
+      "digest": "6c3da13d5eead6e23a2d8514baa5fcfb7f0c183cc17f43dc5ba9a146c03d0773",
+      "category": "Research and Analysis"
+    },
+    {
+      "id": "g3w-4-03",
+      "digest": "c9485e85f29974595f517f7ced508f1f8f4bebe2b201c71a1a86fe6dc2f30f59",
+      "category": "Research and Analysis"
+    },
+    {
+      "id": "g3w-4-04",
+      "digest": "68d0a7932df36969fb6b09427b222bfa7b25cabcc168cb616baf8da8678f8f15",
+      "category": "Research and Analysis"
+    },
+    {
+      "id": "g3w-4-05",
+      "digest": "f2e97a9e24dad36e29adda9a5f2c1b87c44056b1be9677edacf29d402732b743",
+      "category": "Research and Analysis"
+    },
+    {
+      "id": "g3w-4-06",
+      "digest": "bacb60a33fa054fe77cebbd880d85bd1d32f736b8129c26d1cda9cfa739b355f",
+      "category": "Research and Analysis"
+    },
+    {
+      "id": "g3w-4-07",
+      "digest": "ba329c2241f614b9df93e186008fa886584fa08b5cc0f2ad51909f28094230fb",
+      "category": "Research and Analysis"
+    },
+    {
+      "id": "g3w-4-08",
+      "digest": "3c345b5e8a742e53bbff395f39dd02c418c5ff9d03a2676d5fbf4de5f3d43339",
+      "category": "Research and Analysis"
+    },
+    {
+      "id": "g3w-4-09",
+      "digest": "c3a688d902293b45a7c8aec0f432f2172b3d30bace9631f045a9b4d23b2fd2bd",
+      "category": "Research and Analysis"
+    },
+    {
+      "id": "g3w-4-10",
+      "digest": "d64557def6b05d0f7abe8899ec2891e621b2705f9a3522f16e3589de5cb616d7",
+      "category": "Research and Analysis"
+    },
+    {
+      "id": "g3w-5-01",
+      "digest": "456f63ba163d971f001ab213dfd613f9b87a43fee3274471bb558ca2a59df178",
+      "category": "Web Development"
+    },
+    {
+      "id": "g3w-5-02",
+      "digest": "8f38cfdc5949cadc003cbe81422e2eba2b42d66ca0b793b8eac4da1b6646a5f8",
+      "category": "Web Development"
+    },
+    {
+      "id": "g3w-5-03",
+      "digest": "788718f45c40bf91e42f56613c0feadf95e6045e4fad70f9a148c6914926d1e9",
+      "category": "Web Development"
+    },
+    {
+      "id": "g3w-5-04",
+      "digest": "b8ccb4ea2e656e6578b470f0d9ef8add00a57da437a0411d4a0a453e6e38a9c8",
+      "category": "Web Development"
+    },
+    {
+      "id": "g3w-5-05",
+      "digest": "1772f841fa5b81df6b5dc7c4c15026223e72e42145c319924c73bf877a5569ff",
+      "category": "Web Development"
+    },
+    {
+      "id": "g3w-5-06",
+      "digest": "85f7b1fb110d6cacd69340b34fc7d99b87421ca3103f5c03732705d8f7467867",
+      "category": "Web Development"
+    },
+    {
+      "id": "g3w-5-07",
+      "digest": "d70de2f6434d4479d661d136de88ff2f05083ffec6fd66cce0a442d4a8768880",
+      "category": "Web Development"
+    },
+    {
+      "id": "g3w-5-08",
+      "digest": "8fb9ca008ba6fd43307ce442f8c2f059c005f8bb63f950b0534652ad61c788be",
+      "category": "Web Development"
+    },
+    {
+      "id": "g3w-5-09",
+      "digest": "f22a77129312a8d15b9f2ce94870c2f002b7cc8e6b88f4d9847c94f3f7ff57a1",
+      "category": "Web Development"
+    },
+    {
+      "id": "g3w-5-10",
+      "digest": "c6f8a1eb457226cb72c643e89a606bf190a11c730c4b940a28af748780f5b66d",
+      "category": "Web Development"
+    },
+    {
+      "id": "g3w-6-01",
+      "digest": "9b6427b1b50a513d74484566ce58ae1e8d1ee0bc69cebd18f119b7decd9e1586",
+      "category": "Content Production"
+    },
+    {
+      "id": "g3w-6-02",
+      "digest": "1297ca62fccedff2491a3e8f61ee56d81bab48d5c04f72be782c7b354977b8bb",
+      "category": "Content Production"
+    },
+    {
+      "id": "g3w-6-03",
+      "digest": "369a0155a7aa8c8c66be64f4fd0bf449008db2541a116981550cad4215b747ad",
+      "category": "Content Production"
+    },
+    {
+      "id": "g3w-6-04",
+      "digest": "a087b0ed099c1e5f986faacebdfb17565a7a8abce61f17a4f8e8df73c5d9c8c1",
+      "category": "Content Production"
+    },
+    {
+      "id": "g3w-6-05",
+      "digest": "89dc259930fdb53dbdf4c5f94613cb4cf229f40f4b3c69f20527b4f2fe886c3f",
+      "category": "Content Production"
+    },
+    {
+      "id": "g3w-6-06",
+      "digest": "c3720820a3ef91ac0dc4a9bca2f29146932bb1844280f938ad6802c5132e82c3",
+      "category": "Content Production"
+    },
+    {
+      "id": "g3w-6-07",
+      "digest": "b964e84f048ff3fc99946f0a5b159ac95036449240ef2e4cad2b9e0de7d85892",
+      "category": "Content Production"
+    },
+    {
+      "id": "g3w-6-08",
+      "digest": "db2dff318e540ba463b42922e6b1fe2d0e73a7ae383e4f6fc750a34e8e211c16",
+      "category": "Content Production"
+    },
+    {
+      "id": "g3w-6-09",
+      "digest": "1410ee91bd8bb347a865e3081ae139a15711e5445d154d01062a34b47d9ce034",
+      "category": "Content Production"
+    },
+    {
+      "id": "g3w-6-10",
+      "digest": "7e3c7404b517904be38e03ecaab0e440d12bb6815ba68fc44725ac938f20159a",
+      "category": "Content Production"
+    }
+  ],
+  "digest": "41897382d883755bc8fda74057d132436400720a18a5647a159a04b7fd7e1cf2"
+}

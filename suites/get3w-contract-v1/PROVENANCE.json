@@ -1,0 +1,7 @@
+{
+  "source": "get3w/harness-bench",
+  "license": "MIT",
+  "kind": "original",
+  "generator_id": "80d922a1569fad8f3f7848897da37b6446b34881e35b7dfda9ecd68ffeec14b5",
+  "purpose": "Integration functionality fixtures, not a general capability benchmark"
+}

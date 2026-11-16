@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "id": "output",
+      "kind": "text",
+      "path": "release.md",
+      "expected": "# Release 5\n\n- Fix login\n- Improve search\n",
+      "weight": 0.8
+    },
+    {
+      "id": "preserve-notes.json",
+      "kind": "text",
+      "path": "notes.json",
+      "expected": "{\"title\": \"Release 5\", \"items\": [\"Fix login\", \"Improve search\"]}",
+      "weight": 0.2
+    }
+  ]
+}

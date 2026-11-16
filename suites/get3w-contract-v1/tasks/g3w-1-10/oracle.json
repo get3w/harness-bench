@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "id": "output",
+      "kind": "json",
+      "path": "result.json",
+      "expected": {
+        "sorted_unique": [
+          -10,
+          0,
+          17,
+          30
+        ],
+        "sum": 67
+      },
+      "weight": 0.8
+    },
+    {
+      "id": "preserve-input.json",
+      "kind": "text",
+      "path": "input.json",
+      "expected": "[30, -10, 0, 30, 17]",
+      "weight": 0.2
+    }
+  ]
+}

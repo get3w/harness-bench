@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "id": "output",
+      "kind": "text",
+      "path": "card.html",
+      "expected": "<article><h1>Widget &lt;2&gt;</h1><p>10</p></article>\n",
+      "weight": 0.8
+    },
+    {
+      "id": "preserve-product.json",
+      "kind": "text",
+      "path": "product.json",
+      "expected": "{\"title\": \"Widget <2>\", \"price\": 10}",
+      "weight": 0.2
+    }
+  ]
+}

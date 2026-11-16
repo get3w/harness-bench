@@ -1,0 +1,6 @@
+task_id: g3w-2-09
+task_category: Business Operations
+prompt_file: instruction.md
+workspace_dir: workspace
+suite: general
+grader: get3w-contract-v1

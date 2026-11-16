@@ -1,0 +1,6 @@
+task_id: g3w-1-04
+task_category: Software Engineering
+prompt_file: instruction.md
+workspace_dir: workspace
+suite: general
+grader: get3w-contract-v1

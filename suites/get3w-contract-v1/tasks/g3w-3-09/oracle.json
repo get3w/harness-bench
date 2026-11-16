@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "id": "output",
+      "kind": "json",
+      "path": "errors.json",
+      "expected": {
+        "api": 9,
+        "db": 1
+      },
+      "weight": 0.8
+    },
+    {
+      "id": "preserve-events.json",
+      "kind": "text",
+      "path": "events.json",
+      "expected": "[{\"service\": \"api\", \"status\": 500}, {\"service\": \"api\", \"status\": 200}, {\"service\": \"api\", \"status\": 500}, {\"service\": \"api\", \"status\": 200}, {\"service\": \"api\", \"status\": 500}, {\"service\": \"api\", \"status\": 200}, {\"service\": \"api\", \"status\": 500}, {\"service\": \"api\", \"status\": 200}, {\"service\": \"api\", \"status\": 500}, {\"service\": \"api\", \"status\": 200}, {\"service\": \"api\", \"status\": 500}, {\"service\": \"api\", \"status\": 200}, {\"service\": \"api\", \"status\": 500}, {\"service\": \"api\", \"status\": 200}, {\"service\": \"api\", \"status\": 500}, {\"service\": \"api\", \"status\": 200}, {\"service\": \"api\", \"status\": 500}, {\"service\": \"api\", \"status\": 200}, {\"service\": \"db\", \"status\": 503}]",
+      "weight": 0.2
+    }
+  ]
+}

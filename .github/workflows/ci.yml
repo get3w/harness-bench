@@ -1,0 +1,22 @@
+name: bench-ci
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.9.5'
+      - run: uv sync --extra dev --locked --python 3.12
+      - run: uv run ruff check .
+      - run: uv run pytest -q
+      - run: uv run get3w-bench --help
+      - run: node --check bridges/node/bridge.mjs
+      - run: node --check bridges/node/headless-driver.mjs
+      - run: node --check bridges/node/desktop-contracts.mjs
+# No model credentials or real evaluation on untrusted pull requests.

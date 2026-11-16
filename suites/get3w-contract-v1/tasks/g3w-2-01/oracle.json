@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "id": "output",
+      "kind": "json",
+      "path": "totals.json",
+      "expected": {
+        "west": 11,
+        "east": 4
+      },
+      "weight": 0.8
+    },
+    {
+      "id": "preserve-sales.csv",
+      "kind": "text",
+      "path": "sales.csv",
+      "expected": "region,amount\nwest,12\neast,4\nwest,-1\n",
+      "weight": 0.2
+    }
+  ]
+}

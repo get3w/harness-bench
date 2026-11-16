@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling>=1.26,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "get3w-harness-bench"
+version = "0.1.0"
+description = "Paired native and Get3W agent evaluation with reproducible evidence"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["PyYAML>=6.0.2,<7", "httpx>=0.28,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<9", "ruff>=0.11,<1"]
+
+[project.scripts]
+get3w-bench = "get3w_bench.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/get3w_bench"]

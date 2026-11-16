@@ -1,0 +1,57 @@
+schema_version: 1
+source:
+  path: suites/get3w-contract-v1
+task_lock: suites/locks/get3w-smoke12.json
+repetitions: 1
+# A hard cap; unexecuted observations remain blocked in results.json.
+max_trials: 12
+model:
+  id: REPLACE_WITH_PROVIDER_MODEL_ID
+  revision: REPLACE_WITH_IMMUTABLE_PROVIDER_REVISION
+  endpoint: https://provider.example/v1
+  api_format: chat_completions
+  api_key_env: GET3W_MODEL_API_KEY
+  parameters:
+    temperature: 0
+budget:
+  timeout_sec: 300
+  max_requests: 30
+  max_output_tokens: 4096
+  total_output_tokens: 32768
+gateway:
+  bind_host: 127.0.0.1
+  advertise_host: 127.0.0.1
+# Integrated workers must attest the same task execution environment.
+environment:
+  image_digest: REPLACE_WITH_SHARED_TASK_ENVIRONMENT_DIGEST
+  memory: 4g
+  cpus: 2
+grader:
+  image: get3w-bench-grader@sha256:REPLACE_WITH_BUILT_DIGEST
+  command: []
+  timeout_sec: 120
+targets:
+  - id: pi-native
+    harness: pi
+    backend: native
+    runtime_version: REPLACE_WITH_EXACT_VERSION
+    runtime_digest: REPLACE_WITH_ARTIFACT_SHA256
+    image: get3w-pi@sha256:REPLACE_WITH_BUILT_DIGEST
+    command: [python3, -m, get3w_bench.native_worker]
+    network: get3w-bench-internal
+    environment_digest: REPLACE_WITH_CANONICAL_ENVIRONMENT_FINGERPRINT
+    capabilities: [files, shell]
+    tools_fingerprint: REPLACE_WITH_VERIFIED_TOOLS_FINGERPRINT
+    permissions_fingerprint: REPLACE_WITH_VERIFIED_POLICY_FINGERPRINT
+    profile_fingerprint: REPLACE_WITH_VERIFIED_PROFILE_FINGERPRINT
+  - id: pi-get3w
+    harness: pi
+    backend: get3w
+    url: http://127.0.0.1:8790
+    token_env: GET3W_BENCH_TOKEN
+    runtime_version: REPLACE_WITH_EXACT_VERSION
+    runtime_digest: REPLACE_WITH_ARTIFACT_SHA256
+    capabilities: [files, shell]
+    tools_fingerprint: REPLACE_WITH_VERIFIED_TOOLS_FINGERPRINT
+    permissions_fingerprint: REPLACE_WITH_VERIFIED_POLICY_FINGERPRINT
+    profile_fingerprint: REPLACE_WITH_VERIFIED_PROFILE_FINGERPRINT

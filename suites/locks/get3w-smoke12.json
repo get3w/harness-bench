@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "suite": "general",
+  "selection": "sha256(task_id) per category, scarce-category remainder redistributed globally",
+  "tasks": [
+    {
+      "id": "g3w-1-04",
+      "digest": "3428ad198432fc7e1fc707751bf105a486050579261216e8d4d0c0f787635d92",
+      "category": "Software Engineering"
+    },
+    {
+      "id": "g3w-1-07",
+      "digest": "b3b50981fcab18b35973af2f297e7be57fd2f9906f9ca604255a59d3cb377150",
+      "category": "Software Engineering"
+    },
+    {
+      "id": "g3w-2-01",
+      "digest": "cfb1914a05dc546a45722eba9bedf5c861f9d8da9969a33b8be8a406b8111d8c",
+      "category": "Business Operations"
+    },
+    {
+      "id": "g3w-2-04",
+      "digest": "753fa76c33570bfafd23011f3a6c03a1424e44e5c52ef57bdbeeda2321a15ca8",
+      "category": "Business Operations"
+    },
+    {
+      "id": "g3w-3-01",
+      "digest": "a74a7e8cb24869701496a47e01ed63b8ce657b340af4197297e4bfb7edf6d65e",
+      "category": "Systems Engineering"
+    },
+    {
+      "id": "g3w-3-07",
+      "digest": "0fe42d15f0d824b9c84de57321bd9444502fcfbd58f2c93ed842c9fd57aafff8",
+      "category": "Systems Engineering"
+    },
+    {
+      "id": "g3w-4-07",
+      "digest": "ba329c2241f614b9df93e186008fa886584fa08b5cc0f2ad51909f28094230fb",
+      "category": "Research and Analysis"
+    },
+    {
+      "id": "g3w-4-09",
+      "digest": "c3a688d902293b45a7c8aec0f432f2172b3d30bace9631f045a9b4d23b2fd2bd",
+      "category": "Research and Analysis"
+    },
+    {
+      "id": "g3w-5-05",
+      "digest": "1772f841fa5b81df6b5dc7c4c15026223e72e42145c319924c73bf877a5569ff",
+      "category": "Web Development"
+    },
+    {
+      "id": "g3w-5-09",
+      "digest": "f22a77129312a8d15b9f2ce94870c2f002b7cc8e6b88f4d9847c94f3f7ff57a1",
+      "category": "Web Development"
+    },
+    {
+      "id": "g3w-6-03",
+      "digest": "369a0155a7aa8c8c66be64f4fd0bf449008db2541a116981550cad4215b747ad",
+      "category": "Content Production"
+    },
+    {
+      "id": "g3w-6-06",
+      "digest": "c3720820a3ef91ac0dc4a9bca2f29146932bb1844280f938ad6802c5132e82c3",
+      "category": "Content Production"
+    }
+  ],
+  "digest": "7079c64b90a6bb1059b42011f25084f780e4aa907c41c14c0da08f5770043db6"
+}

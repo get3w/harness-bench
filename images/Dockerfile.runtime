@@ -1,0 +1,11 @@
+# RUNTIME_BASE is a prebuilt, license-reviewed image with one pinned harness.
+# No installation from floating latest versions is performed by this recipe.
+ARG RUNTIME_BASE
+FROM ${RUNTIME_BASE}
+USER root
+WORKDIR /opt/bench
+COPY pyproject.toml LICENSE ./
+COPY src ./src
+RUN python3 -m pip install --no-cache-dir .
+COPY bench-runtime.json /opt/bench-runtime.json
+CMD ["python3", "-m", "get3w_bench.native_worker"]
